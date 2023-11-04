@@ -1,2 +1,0 @@
-AKS
-* Azure Kubernetes Service
