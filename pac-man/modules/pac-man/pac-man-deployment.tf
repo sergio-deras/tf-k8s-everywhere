@@ -27,7 +27,6 @@ resource "kubernetes_deployment" "pac-man" {
       spec {
         container {
           name  = "pac-man"
-          #image = "quay.io/ifont/pacman-nodejs-app:latest"
           image = "docker.io/jessehoch/pacman-nodejs-app:latest"
 
           port {
